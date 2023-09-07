@@ -6,12 +6,7 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
-    <div className='container'>
-      {import.meta.env.VITE_HOLA + "Local"}
-      {process.env.VITE_HOLA + "Vercel"}
-    </div>
-  );
+  return <div className='container'>{import.meta.env.VITE_HOLA + "Local"}</div>;
 }
 
 export default App;
