@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div className='container'>
-      {import.meta.env.VITE_HOLA}
-      {process.env.VITE_HOLA}
+      {import.meta.env.VITE_HOLA + "Local"}
+      {process.env.VITE_HOLA + "Vercel"}
     </div>
   );
 }
